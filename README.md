@@ -10,6 +10,14 @@ A live operations dashboard for an automotive service company. Operations staff 
 - Booking status transitions are validated server-side against a fixed state machine (`PENDING → ASSIGNED → ON_THE_WAY → IN_PROGRESS → COMPLETED`, with `CANCELLED` reachable from any non-terminal state) — the frontend cannot force an invalid jump.
 - A lightweight background simulator advances a random active booking every 12 seconds so the "live" behavior is visible without needing two browser tabs open.
 
+## Screenshots
+
+![Overview Dashboard](docs/screenshots/overview.png)
+![Bookings](docs/screenshots/bookings.png)
+![Booking Detail](docs/screenshots/booking-detail.png)
+![Analytics](docs/screenshots/analytics.png)
+![Dark Mode](docs/screenshots/dark-mode.png)
+
 ## Features
 
 - JWT authentication (bcrypt-hashed passwords), role-based (`ADMIN` / `OPERATIONS` / `MECHANIC`)
