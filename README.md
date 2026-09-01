@@ -12,11 +12,11 @@ A live operations dashboard for an automotive service company. Operations staff 
 
 ## Screenshots
 
-![Overview Dashboard](docs/screenshots/overview.png)
-![Bookings](docs/screenshots/bookings.png)
-![Booking Detail](docs/screenshots/booking-detail.png)
-![Analytics](docs/screenshots/analytics.png)
-![Dark Mode](docs/screenshots/dark-mode.png)
+![Overview Dashboard](overview.png)
+![Bookings](bookings.png)
+![Booking Detail](booking-detail.png)
+![Analytics](analytics.png)
+![Dark Mode](dark-mode.png)
 
 ## Features
 
