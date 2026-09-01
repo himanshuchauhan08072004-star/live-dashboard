@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "tsx watch --no-warnings=ExperimentalWarning src/index.ts",
-    "build": "tsc",
+    "build": "tsc && node -e \"require('fs').copyFileSync('src/db/schema.sql','dist/db/schema.sql')\"",
     "start": "node --no-warnings=ExperimentalWarning dist/index.js",
     "seed": "tsx --no-warnings=ExperimentalWarning prisma/seed.ts"
   },
